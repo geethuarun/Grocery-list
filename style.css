@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url(Daco_5338258.png);
+  background-size: cover;
+  background: linear-gradient(45deg, pink,white );
+  
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border: palevioletred 1px solid;
+  margin:10px
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255,255,255,0.2);
+  color:black ;
+  border:palevioletred 1px solid;
+}
+
+th {
+  text-align: left;
+}
+tr:hover{
+background-color:wheat;
+}
+#btn{
+    margin-left: 40%;
+    background-color: blueviolet;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 10px;
+    border: darkblue;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    background-color:blue;}
